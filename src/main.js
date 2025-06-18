@@ -124,3 +124,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 });
+
+// Exportar toggleFaq al scope global para el HTML inline onclick
+window.toggleFaq = toggleFaq;
